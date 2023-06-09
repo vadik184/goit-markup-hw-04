@@ -459,11 +459,13 @@ img {
   justify-content: center;
   gap: 24px;
 }
-.customers-item {
-  display: block;
-  width: 168px;
-  height: 88px;
-  background-color: none;
+.customers-item-link {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  color: var(--sudtle-text);
   border: 1px solid var(--sudtle-text);
   border-radius: 4px;
   transition-property: border;
@@ -472,21 +474,19 @@ img {
 }
 .customers-item-icon {
   display: block;
-  fill: var(--sudtle-text);
+  fill: currentColor;
   margin: 16px 32px;
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.customers-item-link {
-  width: 100%;
+.customers-item-link:hover {
+  border-color: var(--pressed-state);
 }
 .customers-item-link:hover .customers-item-icon {
   fill: var(--pressed-state);
 }
-.customers-item:hover {
-  border: 1px solid var(--pressed-state);
-}
+
 /**-------------footer---------------**/
 
 .footer {
