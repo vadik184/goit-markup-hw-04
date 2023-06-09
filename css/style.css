@@ -404,15 +404,13 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
 }
-.team-icon {
-  display: block;
-  margin-top: 8px;
-}
+
 .team-icon-list {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 24px;
+  margin-top: 8px;
 }
 .team-icon-item {
   width: 40px;
