@@ -457,7 +457,12 @@ img {
 .customers-list {
   display: flex;
   justify-content: center;
+
   gap: 24px;
+}
+.customers-item {
+  width: calc((100% - 120px) / 6);
+  height: 88px;
 }
 .customers-item-link {
   display: flex;
@@ -468,7 +473,7 @@ img {
   color: var(--sudtle-text);
   border: 1px solid var(--sudtle-text);
   border-radius: 4px;
-  transition-property: border;
+  transition-property: border-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -481,6 +486,9 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customers-item-link:hover {
+  border-color: var(--pressed-state);
+}
+.customers-item-link:focus {
   border-color: var(--pressed-state);
 }
 .customers-item-link:hover .customers-item-icon {
