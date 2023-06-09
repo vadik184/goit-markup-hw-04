@@ -103,9 +103,8 @@ img {
   margin-right: 332px;
 }
 .navigation-menu-item {
-  position: relative;
 }
-.navigation-menu-item::after {
+.navigation-menu-link::after {
   display: block;
   content: "";
   position: absolute;
@@ -119,20 +118,22 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.navigation-menu-item:first-child::after {
+.navigation-menu-link:first-child::after {
   height: 4px;
   width: 48px;
 }
-.navigation-menu-item:nth-child(2):after {
+.navigation-menu-link:nth-child(2):after {
   height: 4px;
   width: 66px;
 }
-.navigation-menu-item:last-child:after {
+.navigation-menu-link:last-child:after {
   height: 4px;
   width: 67px;
 }
 
 .navigation-menu-link {
+  position: relative;
+  display: block;
   text-decoration: none;
   font-weight: 500;
   font-size: 16px;
@@ -200,7 +201,10 @@ img {
 /**-------------hero-------------**/
 
 .hero {
+  display: block;
   background-color: var(--dark);
+  margin: 0 auto;
+  max-width: 1440px;
   padding-bottom: 188px;
   padding-top: 188px;
   background-image: linear-gradient(
@@ -211,7 +215,7 @@ img {
     url(../images/hero-baground-office.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  background-size: auto;
+  background-size: cover;
 }
 .hero-container {
   display: block;
@@ -305,18 +309,15 @@ img {
   width: calc((100% - 72px) / 4);
   position: relative;
 }
-.info-item::before {
-  content: "";
-  width: 264px;
+
+.section-info-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 112px;
   background-color: var(--light);
-  display: block;
+  border-radius: 4px;
   margin-bottom: 8px;
-}
-.section-info-icon {
-  position: absolute;
-  top: 24px;
-  left: 100px;
 }
 /**-------------section works-----------**/
 .works {
