@@ -367,7 +367,8 @@ img {
 }
 .container-team-subtitle-text {
   display: block;
-  padding: 32px 16px 0 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .team-title {
   font-weight: 700;
@@ -405,7 +406,7 @@ img {
 }
 .team-icon {
   display: block;
-  padding: 32px 0;
+  margin-top: 8px;
 }
 .team-icon-list {
   display: flex;
