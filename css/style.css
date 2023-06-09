@@ -436,7 +436,8 @@ img {
 /**-----------section customers--------**/
 .customers {
   display: block;
-  padding: 156px 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .container-customers {
   display: block;
@@ -476,6 +477,9 @@ img {
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.customers-item-link {
+  width: 100%;
 }
 .customers-item-link:hover .customers-item-icon {
   fill: var(--pressed-state);
