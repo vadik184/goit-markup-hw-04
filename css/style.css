@@ -367,7 +367,7 @@ img {
 }
 .container-team-subtitle-text {
   display: block;
-  padding: 32px 16px;
+  padding: 32px 16px 0 16px;
 }
 .team-title {
   font-weight: 700;
@@ -403,9 +403,11 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
 }
+.team-icon {
+  padding: 32px 0;
+}
 .team-icon-list {
   display: flex;
-  padding: 8px 16px 32px 16px;
   align-items: center;
   justify-content: center;
   gap: 24px;
