@@ -163,9 +163,15 @@ img {
   background-color: var(--dark);
   padding-bottom: 188px;
   padding-top: 188px;
-  background-image: url(../images/hero-baground-office.jpg);
+  background-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero-baground-office.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
+  background-size: auto;
 }
 .hero-container {
   display: block;
