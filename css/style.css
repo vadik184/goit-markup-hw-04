@@ -404,6 +404,7 @@ img {
   text-align: center;
 }
 .team-icon {
+  display: block;
   padding: 32px 0;
 }
 .team-icon-list {
