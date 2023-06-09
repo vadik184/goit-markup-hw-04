@@ -278,7 +278,7 @@ img {
 .section-info-icon {
   position: absolute;
   top: 24px;
-  left: 0;
+  left: 100px;
 }
 /**-------------section works-----------**/
 .works {
