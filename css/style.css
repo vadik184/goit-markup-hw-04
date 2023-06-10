@@ -434,12 +434,13 @@ img {
   border-radius: 50%;
   align-items: center;
   justify-content: center;
+  display: flex;
 }
 .team-icon-svg {
   display: block;
   margin: 12px;
   background-color: none;
-  fill: var(--white-background);
+  fill: var(--light);
 }
 /**-----------section customers--------**/
 .customers {
