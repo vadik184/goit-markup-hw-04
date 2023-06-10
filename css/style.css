@@ -421,11 +421,19 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.team-icon-item:hover {
+.team-icon-link:hover {
   background-color: var(--pressed-state);
 }
-.team-icon-item:focus {
+.team-icon-link:focus {
   background-color: var(--pressed-state);
+}
+.team-icon-link {
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary-band);
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
 }
 .team-icon-svg {
   display: block;
