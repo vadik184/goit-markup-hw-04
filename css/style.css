@@ -575,6 +575,15 @@ img {
   height: 40px;
   background-color: var(--primary-band);
   border-radius: 50%;
+}
+.footer-soc-link {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-band);
+  border-radius: 50%;
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -585,10 +594,10 @@ img {
   fill: var(--white-background);
   margin: 8px;
 }
-.footer-soc-item:hover {
+.footer-soc-link:hover {
   background-color: var(--success);
 }
-.footer-soc-item:focus {
+.footer-soc-link:focus {
   background-color: var(--success);
 }
 /**-----------P A G E    2---------------**/
