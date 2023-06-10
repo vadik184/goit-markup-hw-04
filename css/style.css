@@ -517,6 +517,11 @@ img {
 }
 .footer-container {
   display: block;
+  margin-right: 120px;
+}
+.main-footer-container {
+  display: flex;
+  align-items: baseline;
 }
 .link {
   text-decoration: none;
@@ -547,9 +552,8 @@ img {
   display: block;
   width: 208px;
   height: 80px;
-  margin-left: 120px;
 }
-.footer-soc-subtitle {
+.footer-soc-text {
   display: block;
   font-family: "Roboto";
   font-style: normal;
