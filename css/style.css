@@ -103,7 +103,7 @@ img {
   margin-right: 332px;
 }
 
-.navigation-menu-item::after {
+.navigation-menu-link::after {
   display: block;
   content: "";
   position: absolute;
