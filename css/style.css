@@ -94,9 +94,9 @@ img {
   font-weight: 500;
   letter-spacing: 0.02em;
 }
-.navigation-menu-list a {
+/**.navigation-menu-list a {
   color: var(--dark);
-}
+}*/
 .navigation-menu-list {
   display: flex;
   gap: 40px;
@@ -126,7 +126,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--pressed-state);
+  color: #404bbf;
   padding: 24px 0;
 }
 .link {
