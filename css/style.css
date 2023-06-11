@@ -721,10 +721,6 @@ img {
 
 /**------------portfolio----------**/
 
-.portfolio-item {
-  width: 360px;
-  height: 420px;
-}
 .portfolio-container-subtitle-text {
   display: block;
   border-left: 1px solid var(--accent);
@@ -782,30 +778,4 @@ img {
   color: var(--text);
   padding-left: 16px;
 }
-
-/**---------overlay--------------**/
-
-.portfolio-image-overlay {
-  position: relative;
-  overflow: hidden;
-}
-.overlay-text {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: var(--primary-band);
-  transform: translateY(1);
-}
-.overlay-text {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
-  padding: 40px 32px;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+/**-----------------------**/
